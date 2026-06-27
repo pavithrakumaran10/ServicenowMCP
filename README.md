@@ -14,6 +14,9 @@ This demonstrates two skill sets at once:
 - **ServiceNow integration architecture** — a resilient Table API client with OAuth2 (with Basic-auth fallback), token refresh on 401, and exponential backoff on 429/5xx, plus CMDB and `sys_dictionary` introspection tools.
 
 ---
+![Uploading 20260627-0955-13.9994987.gif…]()
+
+
 
 ## Architecture
 
@@ -96,7 +99,6 @@ A 🔧 indicator confirms the tools loaded. Then try:
 ## Tech
 
 Python 3.10+ · FastMCP · Pydantic v2 · requests · pytest + responses
-<img width="1446" height="878" alt="20260627-0952-46 4496655" src="https://github.com/user-attachments/assets/e0336ebb-3cd9-4c09-a5e4-7051a03eeb39" />
 
 
 
