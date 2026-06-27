@@ -1,4 +1,4 @@
-<img width="1446" height="878" alt="20260627-0955-13 9994987" src="https://github.com/user-attachments/assets/8ce14cd7-6be4-466b-a34a-1e990960982c" /># ServiceNow Developer Actions — MCP Server
+ServiceNow Developer Actions — MCP Server
 
 An [MCP](https://modelcontextprotocol.io) server that connects Claude Desktop (or any MCP client) to a ServiceNow instance, exposing **guarded developer actions** as natural-language tools. Claude can read incidents, inspect CMDB and table schemas, and create records — with every write isolated to a scoped Update Set, restricted to an allowlist of tables, and protected by a dry-run preview.
 
@@ -14,7 +14,7 @@ This demonstrates two skill sets at once:
 - **ServiceNow integration architecture** — a resilient Table API client with OAuth2 (with Basic-auth fallback), token refresh on 401, and exponential backoff on 429/5xx, plus CMDB and `sys_dictionary` introspection tools.
 
 ---
-<img width="1446" height="878" alt="20260627-0956-14 5005578" src="https://github.com/user-attachments/assets/955521d6-39b2-4872-8033-c1f5c879fec3" />
+<img width="1249" height="778" alt="20260627-0956-14 5005578" src="https://github.com/user-attachments/assets/955521d6-39b2-4872-8033-c1f5c879fec3" />
 
 
 
