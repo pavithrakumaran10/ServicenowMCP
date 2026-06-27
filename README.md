@@ -75,9 +75,9 @@ Add to `claude_desktop_config.json` (Developer → Open App Configuration File),
       "args": ["-m", "servicenow_mcp.server"],
       "cwd": "/absolute/path/to/servicenow-mcp/src",
       "env": {
-        "SN_URL": "https://dev385830.service-now.com/",
-        "SN_USER": "claudeuser",
-        "SN_PASS": "wL}oW2DWSWr@Y^g$gj.YL]j}hX[mJZsnq4^j=k@Vhr],?XK8F<i2-aXe+A54>MK]MOn?8b8$Ig7hx:aC%dyyv%y=]E]oB1mX#zpA",
+        "SN_URL": "https://dev.service-now.com/",
+        "SN_USER": "user",
+        "SN_PASS": "pass",
         "SN_UPDATE_SET": "MCP Automated Changes"
       }
     }
